@@ -3,17 +3,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^9.6.1",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-device-detect": "^2.1.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.4",
-    "react-use": "^17.3.1"
+    "react-use": "^17.3.1",
+    "sharp": "^0.29.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.5",

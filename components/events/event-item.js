@@ -1,4 +1,3 @@
-import Image from "next/Image";
 import Button from "../ui/button";
 import DateIcon from "../icons/date-icon";
 import AddressIcon from "../icons/address-icon";
@@ -20,7 +19,7 @@ function EventItem(props) {
 
   return (
     <li className={classes.item}>
-      <Image src={"/" + image} alt={title} width="230px" height="230px" />
+      <img src={"/" + image} alt={title} />
 
       <div className={classes.content}>
         <div className={classes.summary}>
